@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --font: #3a3a3a;
+  --pink: #e02c6d;
+  --Dark: #0a0826;
+  --white: #ffff;
+  --pane-padding: 5px 42px;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--pink);
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-primary:hover {
+  color: var(--pink);
+  cursor: pointer;
+  padding: 8px 22px;
+  background-color: transparent;
+  border: 2px solid var(--pink);
+}
+
+.btn-white {
+  color: #f15b22;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+/* Style Start */
+
+nav {
+  display: flex;
+  padding: 15px 20%;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.nav-title {
+  color: var(--font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 35px;
+}
+
+nav .navitems {
+  color: var(--font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  gap: 120px;
+  display: flex;
+  justify-content: center;
+  width: 1070px;
+  padding: 30px;
+}
+.bannerimg {
+  background-image: url("images/Circle design.svg");
+
+  width: 475px;
+  height: 475px;
+  background-repeat: no-repeat;
+}
+
+.content-container {
+  width: 70%;
+  align-self: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: var(--font);
+}
+
+.description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--font);
+  margin: 16px 0;
+}
+
+/* logos */
+
+.logcontainer {
+  padding: 80px 20%;
+}
+
+.lineborder {
+  border: 1px solid #c0ccda;
+}
+
+.logs {
+  display: flex;
+  padding: 32px 60px;
+  justify-content: space-between;
+}
