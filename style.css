@@ -103,11 +103,11 @@ main {
 }
 
 .content-container {
-  width: 70%;
+  width: 80%;
   align-self: center;
 }
 
-.title {
+.main-title {
   font-weight: 700;
   font-size: 52px;
   line-height: 70px;
@@ -125,11 +125,21 @@ main {
 /* logos */
 
 .logcontainer {
-  padding: 80px 20%;
+  padding: 100px 20%;
 }
 
 .lineborder {
-  border: 1px solid #c0ccda;
+  width: 1110px;
+  height: 1px;
+  left: 165px;
+  top: 725px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
 }
 
 .logs {
@@ -139,7 +149,7 @@ main {
 }
 /* collection start */
 .collection {
-  padding: 100px 20%;
+  padding: 0 20%;
 }
 
 .cardcontainer {
@@ -214,4 +224,60 @@ ul li {
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.018em;
+}
+
+.buttomntn {
+  display: flex;
+  justify-content: end;
+}
+.see-more-btn {
+  background-color: transparent;
+  color: var(--pink);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+
+/* featured Start */
+.featured {
+  padding: 100px 20%;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.featured-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.featuredimg {
+  width: 404px;
+  height: 270px;
+}
+
+footer {
+  background-color: var(--Dark);
+  padding: 50px 20%;
+}
+
+.footercontainer {
+  text-align: center;
+  color: var(--white);
+}
+
+.icongroup {
+  margin-top: 16px;
+}
+.socialicon {
+  padding: 8px;
+}
+
+.footercontainer p {
+  margin: 4px 0;
 }
